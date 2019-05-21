@@ -1,18 +1,9 @@
-TypeScript Hello World Demo
-===========================
+TypeScript Use Type from Interface Demo
+=======================================
+
+使用在interface中的某个field的类型，必须写成`User['emails']`，而不能是`User.emails`.
 
 ```
 npm install
 npm run demo
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-
